@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA+Guides&display=swap');
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+
+    width: 70%;
+
+    background-color: #faedcd;
+}
+
+section{
+
+        margin: 20px 100px;
+
+
+}
+#profile-section,#edu-work-section{
+
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+
+    /* gap: 10px; */
+
+    justify-content: center;
+    
+}
+
+/* .profile-image,.profile-details{
+
+    background-color: green;
+    height: 100px;
+} */
+
+
+
+.profile-image img{
+
+    width: 75%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+
+
+.profile-details h1{
+
+    font-family: "Playwrite AU SA Guides", cursive;
+
+    font-size: 80px;
+}
+
+.profile-details h2{
+
+    font-size:40px ;
+}
+
+#my-profile-section h1{
+
+    font-size: 100px;
+    text-align: center;
+}
+
+.education ul li {
+
+    font-weight: bold;
+}
+
+.skill-section{
+
+    display: flex;
+    align-items: center;
+}
+
+.skill-sub{
+
+    margin: 0px 35px;
+}
+
+.skill-sub p{
+    font-size: 15px;
+}
+
+.skill-sub p span{
+
+    font-size: 30px;
+}
+
+#contact-section{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    /* display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+
+    text-align: center; */
+}
